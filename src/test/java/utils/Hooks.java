@@ -13,7 +13,7 @@ public class Hooks {
 	
 	public static WebDriver driver;
 
-	// Method 1 => Opens the browser
+	// Method 1 => Opens the Edge browser
 	public static void setUp(String browserName) {
 
 		if (browserName.equals("edge")) {
